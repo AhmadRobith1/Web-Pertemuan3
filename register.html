@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>Web Iwima</title>
+</head>
+<body>
+    <header>
+        <h1>Institut Widya Pratama</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../Pertemuan 2/index.html">Home</a></li>
+            <li>Register</li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Form Registrasi</h1>
+        <form action="">
+            <label for="nama lengkap">Nama Lengkap</label><br/>
+            <input type="text" id="namalengkap" name="nama lengkap" placeholder="isi nama lengkap"/><br/>
+            
+            <label for="tempat lahir">Tempat Lahir</label><br/>
+            <input type="text" id="tempat lahir" name="tempat lahir" placeholder="isi tempat lahir"/><br/>
+            
+            <label for="tanggal lahir">Tanggal Lahir</label><br/>
+            <input type="date" id="tanggal lahir" name="tanggal lahir"/><br/>
+            
+            <label for="jenis kelamin">Jenis Kelamin</label><br/>
+            <input type="radio" id="laki laki" name="jenis kelamin" value="laki laki"/>
+            <label for="laki laki">Laki Laki</label><br/>
+            <input type="radio" id="perempuan" name="jenis kelamin" value="perempuan"/>
+            <label for="Perempuan">Perempuan</label><br/>
+            
+            <label for="Kota">Kota</label><br/>
+            <select name="Kota" id="kota">
+                <option value="kota pekalongan">Kota Pekalongan</option>
+                <option value="kab pekalongan">Kab Pekalongan</option>
+                <option value="Kab Pemalang">Kab Pemalang</option>
+                <option value="kab batang">Kab Batang</option>
+            </select><br><br>
+            <label for="alamat">Alamat tinggal</label><br>
+            <textarea id="alamat" name="alamat" rows="4"></textarea><br>
+            <label for="nomor hp">Nomor Hp :</label><br>
+            <input type="tel" id="nomor_hp" name="nomor_hp"><br>
+            <button type="submit">Daftar</button>
+        </form>
+    </main>
+</body>
+</html>
